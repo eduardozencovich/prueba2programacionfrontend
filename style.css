@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    overflow-y: auto;
+    background-color: bisque;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: bisque;
+    color: rgba(129, 122, 170, 0.925);
+}
+main {
+    margin: 50px 80px;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
